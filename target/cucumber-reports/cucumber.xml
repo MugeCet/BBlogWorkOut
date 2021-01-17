@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="134.854321">
+    <testcase classname="BBlogWorkOut" name="CreateNewArticleSuccessfully" time="43.868018">
+        <system-out><![CDATA[Given Open chrome browser...................................................passed
+Given Open BBlog homepage...................................................passed
+Then Verify BblogHomePage...................................................passed
+And I click SignInTab button................................................passed
+Then Verify SignInPage......................................................passed
+And I write testusermuge@gmail.com on Username textbox......................passed
+And I write 123456 on Password textbox......................................passed
+And I click SignIn button...................................................passed
+Then Verify LoginPage.......................................................passed
+And I click NewPost button..................................................passed
+Then Verify NewPostPage.....................................................passed
+Given I write Funny on ArticleTitle textbox.................................passed
+Given I write TestAutoArticleAbout on ArticleAbout textbox..................passed
+Given I write PassTheChallenge on Tag textbox...............................passed
+And I click PublishArticle button...........................................passed
+Then Verify MyArticle.......................................................passed
+Then I quit browser.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="BBlogWorkOut" name="EditArticleSuccessfully" time="49.782108">
+        <system-out><![CDATA[Given Open chrome browser...................................................passed
+Given Open BBlog homepage...................................................passed
+Then Verify BblogHomePage...................................................passed
+And I click SignInTab button................................................passed
+Then Verify SignInPage......................................................passed
+And I write testusermuge@gmail.com on Username textbox......................passed
+And I write 123456 on Password textbox......................................passed
+And I click SignIn button...................................................passed
+Then Verify LoginPage.......................................................passed
+And I click MugetestTab button..............................................passed
+Then Verify UserProfile.....................................................passed
+And I click Funny Article button............................................passed
+Then Verify Funny Article Detail Page.......................................passed
+And I click Edit Article button.............................................passed
+Then Verify ArticleTitle....................................................passed
+Given I write FunnyBunny on ArticleTitle textbox............................passed
+And I click PublishArticle button...........................................passed
+Then Verify Funny Bunny Article.............................................passed
+Then I quit browser.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="BBlogWorkOut" name="DeleteArticleSuccessfully" time="41.204195">
+        <system-out><![CDATA[Given Open chrome browser...................................................passed
+Given Open BBlog homepage...................................................passed
+Then Verify BblogHomePage...................................................passed
+And I click SignInTab button................................................passed
+Then Verify SignInPage......................................................passed
+And I write testusermuge@gmail.com on Username textbox......................passed
+And I write 123456 on Password textbox......................................passed
+And I click SignIn button...................................................passed
+Then Verify LoginPage.......................................................passed
+And I click MugetestTab button..............................................passed
+Then Verify UserProfile.....................................................passed
+And I click Funny Bunny Article button......................................passed
+Then Verify Funny Bunny Article Detail Page.................................passed
+And I click Delete Article button...........................................passed
+Then Verify LoginPage.......................................................passed
+Then I quit browser.........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
