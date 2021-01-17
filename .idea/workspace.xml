@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbbed94e-52e8-4b74-bf31-208a417e7dec" name="Default Changelist" comment="" />
+    <list default="true" id="cbbed94e-52e8-4b74-bf31-208a417e7dec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,9 +167,9 @@
     <list>
       <item itemvalue="Cucumber java.Feature: BBlog" />
       <item itemvalue="Cucumber java.Scenario: EditArticleSuccessfully" />
-      <item itemvalue="TestNG.RunCukesTest" />
-      <item itemvalue="JUnit.RunCukesTest" />
       <item itemvalue="Cucumber java.All Features in: src" />
+      <item itemvalue="JUnit.RunCukesTest" />
+      <item itemvalue="TestNG.RunCukesTest" />
     </list>
     <recent_temporary>
       <list>
